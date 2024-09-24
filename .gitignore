@@ -1,5 +1,6 @@
 .gradle
 build/
+flows/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -12,6 +13,7 @@ build/
 .settings
 .springBeans
 .sts4-cache
+.puml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -35,7 +37,4 @@ out/
 ### VS Code ###
 .vscode/
 
-### unique ###
-flows
-rocksdb_data
-rocksdb_transactions
+
