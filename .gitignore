@@ -36,6 +36,6 @@ out/
 .vscode/
 
 ### unique ###
-/flows
-/rocksdb_data
-/rocksdb_transactions
+flows
+rocksdb_data
+rocksdb_transactions
