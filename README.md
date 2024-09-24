@@ -21,6 +21,7 @@ gradle run
 
 ### Testing the Project with cURL
 
+
 - Adding a New Block
 ````shell
 curl -X POST http://localhost:8080/blocks/add \
