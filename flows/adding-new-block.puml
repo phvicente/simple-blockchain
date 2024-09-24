@@ -1,0 +1,25 @@
+@startuml
+actor Usuário
+participant "AddBlockUseCase" as AddBlock
+participant "VerifyTransactionsUseCase" as VerifyTx
+participant "ValidateChainUseCase" as ValidateChain
+participant "BlockRepository" as BlockRepo
+participant "Block" as Bloco
+participant "ProofOfWork" as PoW
+
+Usuário -> AddBlock: Solicita adicionar bloco com transações
+AddBlock -> VerifyTx: Verifica transações
+VerifyTx -> VerifyTx: Valida estrutura e duplicidade
+AddBlock <- VerifyTx: Resultado da verificação
+AddBlock -> BlockRepo: Obtém último bloco
+BlockRepo --> AddBlock: Retorna último bloco
+AddBlock -> Bloco: Cria novo bloco
+AddBlock -> PoW: Realiza prova de trabalho
+PoW -> Bloco: Minerando bloco
+AddBlock <- PoW: Retorna bloco minerado
+AddBlock -> ValidateChain: Valida cadeia
+ValidateChain -> BlockRepo: Obtém todos os blocos
+AddBlock <- ValidateChain: Resultado da validação
+AddBlock -> BlockRepo: Adiciona novo bloco
+AddBlock -> Usuário: Confirma adição do bloco
+@enduml

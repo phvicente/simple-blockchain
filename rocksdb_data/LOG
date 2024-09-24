@@ -1,0 +1,289 @@
+2024/09/24-08:34:32.906383 5fec RocksDB version: 8.0.0
+2024/09/24-08:34:32.906461 5fec Git sha fdf403f5918a2b4355cf75ebe5e21d0fc22db880
+2024/09/24-08:34:32.906475 5fec Compile date 2023-03-21 23:33:48
+2024/09/24-08:34:32.906486 5fec DB SUMMARY
+2024/09/24-08:34:32.906496 5fec DB Session ID:  SPRLLTPYFNJ35N1QFM8M
+2024/09/24-08:34:32.907066 5fec CURRENT file:  CURRENT
+2024/09/24-08:34:32.907079 5fec IDENTITY file:  IDENTITY
+2024/09/24-08:34:32.907127 5fec MANIFEST file:  MANIFEST-000019 size: 253 Bytes
+2024/09/24-08:34:32.907138 5fec SST files in rocksdb_data dir, Total Num: 2, files: 000008.sst 000013.sst 
+2024/09/24-08:34:32.907147 5fec Write Ahead Log file in rocksdb_data: 000014.log size: 0 ; 000018.log size: 355 ; 
+2024/09/24-08:34:32.907158 5fec                         Options.error_if_exists: 0
+2024/09/24-08:34:32.907322 5fec                       Options.create_if_missing: 1
+2024/09/24-08:34:32.907330 5fec                         Options.paranoid_checks: 1
+2024/09/24-08:34:32.907333 5fec             Options.flush_verify_memtable_count: 1
+2024/09/24-08:34:32.907335 5fec                               Options.track_and_verify_wals_in_manifest: 0
+2024/09/24-08:34:32.907338 5fec        Options.verify_sst_unique_id_in_manifest: 1
+2024/09/24-08:34:32.907340 5fec                                     Options.env: 00000263F875C660
+2024/09/24-08:34:32.907343 5fec                                      Options.fs: WinFS
+2024/09/24-08:34:32.907345 5fec                                Options.info_log: 00000263F893DCC0
+2024/09/24-08:34:32.907348 5fec                Options.max_file_opening_threads: 16
+2024/09/24-08:34:32.907350 5fec                              Options.statistics: 0000000000000000
+2024/09/24-08:34:32.907353 5fec                               Options.use_fsync: 0
+2024/09/24-08:34:32.907355 5fec                       Options.max_log_file_size: 0
+2024/09/24-08:34:32.907357 5fec                  Options.max_manifest_file_size: 1073741824
+2024/09/24-08:34:32.907360 5fec                   Options.log_file_time_to_roll: 0
+2024/09/24-08:34:32.907362 5fec                       Options.keep_log_file_num: 1000
+2024/09/24-08:34:32.907365 5fec                    Options.recycle_log_file_num: 0
+2024/09/24-08:34:32.907367 5fec                         Options.allow_fallocate: 1
+2024/09/24-08:34:32.907369 5fec                        Options.allow_mmap_reads: 0
+2024/09/24-08:34:32.907372 5fec                       Options.allow_mmap_writes: 0
+2024/09/24-08:34:32.907374 5fec                        Options.use_direct_reads: 0
+2024/09/24-08:34:32.907376 5fec                        Options.use_direct_io_for_flush_and_compaction: 0
+2024/09/24-08:34:32.907379 5fec          Options.create_missing_column_families: 0
+2024/09/24-08:34:32.907381 5fec                              Options.db_log_dir: 
+2024/09/24-08:34:32.907383 5fec                                 Options.wal_dir: 
+2024/09/24-08:34:32.907386 5fec                Options.table_cache_numshardbits: 6
+2024/09/24-08:34:32.907388 5fec                         Options.WAL_ttl_seconds: 0
+2024/09/24-08:34:32.907390 5fec                       Options.WAL_size_limit_MB: 0
+2024/09/24-08:34:32.907393 5fec                        Options.max_write_batch_group_size_bytes: 1048576
+2024/09/24-08:34:32.907395 5fec             Options.manifest_preallocation_size: 4194304
+2024/09/24-08:34:32.907397 5fec                     Options.is_fd_close_on_exec: 1
+2024/09/24-08:34:32.907400 5fec                   Options.advise_random_on_open: 1
+2024/09/24-08:34:32.907402 5fec                    Options.db_write_buffer_size: 0
+2024/09/24-08:34:32.907404 5fec                    Options.write_buffer_manager: 00000263F875C750
+2024/09/24-08:34:32.907407 5fec         Options.access_hint_on_compaction_start: 1
+2024/09/24-08:34:32.907409 5fec           Options.random_access_max_buffer_size: 1048576
+2024/09/24-08:34:32.907411 5fec                      Options.use_adaptive_mutex: 0
+2024/09/24-08:34:32.907414 5fec                            Options.rate_limiter: 0000000000000000
+2024/09/24-08:34:32.907417 5fec     Options.sst_file_manager.rate_bytes_per_sec: 0
+2024/09/24-08:34:32.907438 5fec                       Options.wal_recovery_mode: 2
+2024/09/24-08:34:32.907442 5fec                  Options.enable_thread_tracking: 0
+2024/09/24-08:34:32.907445 5fec                  Options.enable_pipelined_write: 0
+2024/09/24-08:34:32.907447 5fec                  Options.unordered_write: 0
+2024/09/24-08:34:32.907449 5fec         Options.allow_concurrent_memtable_write: 1
+2024/09/24-08:34:32.907452 5fec      Options.enable_write_thread_adaptive_yield: 1
+2024/09/24-08:34:32.907454 5fec             Options.write_thread_max_yield_usec: 100
+2024/09/24-08:34:32.907456 5fec            Options.write_thread_slow_yield_usec: 3
+2024/09/24-08:34:32.907459 5fec                               Options.row_cache: None
+2024/09/24-08:34:32.907461 5fec                              Options.wal_filter: None
+2024/09/24-08:34:32.907464 5fec             Options.avoid_flush_during_recovery: 0
+2024/09/24-08:34:32.907466 5fec             Options.allow_ingest_behind: 0
+2024/09/24-08:34:32.907468 5fec             Options.two_write_queues: 0
+2024/09/24-08:34:32.907470 5fec             Options.manual_wal_flush: 0
+2024/09/24-08:34:32.907473 5fec             Options.wal_compression: 0
+2024/09/24-08:34:32.907475 5fec             Options.atomic_flush: 0
+2024/09/24-08:34:32.907477 5fec             Options.avoid_unnecessary_blocking_io: 0
+2024/09/24-08:34:32.907479 5fec                 Options.persist_stats_to_disk: 0
+2024/09/24-08:34:32.907482 5fec                 Options.write_dbid_to_manifest: 0
+2024/09/24-08:34:32.907484 5fec                 Options.log_readahead_size: 0
+2024/09/24-08:34:32.907486 5fec                 Options.file_checksum_gen_factory: Unknown
+2024/09/24-08:34:32.907489 5fec                 Options.best_efforts_recovery: 0
+2024/09/24-08:34:32.907491 5fec                Options.max_bgerror_resume_count: 2147483647
+2024/09/24-08:34:32.907494 5fec            Options.bgerror_resume_retry_interval: 1000000
+2024/09/24-08:34:32.907496 5fec             Options.allow_data_in_errors: 0
+2024/09/24-08:34:32.907498 5fec             Options.db_host_id: __hostname__
+2024/09/24-08:34:32.907500 5fec             Options.enforce_single_del_contracts: true
+2024/09/24-08:34:32.907503 5fec             Options.max_background_jobs: 2
+2024/09/24-08:34:32.907505 5fec             Options.max_background_compactions: -1
+2024/09/24-08:34:32.907508 5fec             Options.max_subcompactions: 1
+2024/09/24-08:34:32.907510 5fec             Options.avoid_flush_during_shutdown: 0
+2024/09/24-08:34:32.907512 5fec           Options.writable_file_max_buffer_size: 1048576
+2024/09/24-08:34:32.907515 5fec             Options.delayed_write_rate : 16777216
+2024/09/24-08:34:32.907517 5fec             Options.max_total_wal_size: 0
+2024/09/24-08:34:32.907519 5fec             Options.delete_obsolete_files_period_micros: 21600000000
+2024/09/24-08:34:32.907522 5fec                   Options.stats_dump_period_sec: 600
+2024/09/24-08:34:32.907524 5fec                 Options.stats_persist_period_sec: 600
+2024/09/24-08:34:32.907526 5fec                 Options.stats_history_buffer_size: 1048576
+2024/09/24-08:34:32.907529 5fec                          Options.max_open_files: -1
+2024/09/24-08:34:32.907531 5fec                          Options.bytes_per_sync: 0
+2024/09/24-08:34:32.907533 5fec                      Options.wal_bytes_per_sync: 0
+2024/09/24-08:34:32.907536 5fec                   Options.strict_bytes_per_sync: 0
+2024/09/24-08:34:32.907538 5fec       Options.compaction_readahead_size: 0
+2024/09/24-08:34:32.907540 5fec                  Options.max_background_flushes: -1
+2024/09/24-08:34:32.907543 5fec Compression algorithms supported:
+2024/09/24-08:34:32.907553 5fec 	kZSTD supported: 1
+2024/09/24-08:34:32.907556 5fec 	kSnappyCompression supported: 1
+2024/09/24-08:34:32.907558 5fec 	kBZip2Compression supported: 0
+2024/09/24-08:34:32.907560 5fec 	kZlibCompression supported: 1
+2024/09/24-08:34:32.907563 5fec 	kLZ4Compression supported: 1
+2024/09/24-08:34:32.907565 5fec 	kXpressCompression supported: 0
+2024/09/24-08:34:32.907567 5fec 	kLZ4HCCompression supported: 1
+2024/09/24-08:34:32.907583 5fec 	kZSTDNotFinalCompression supported: 1
+2024/09/24-08:34:32.907591 5fec Fast CRC32 supported: Supported on x86
+2024/09/24-08:34:32.907594 5fec DMutex implementation: std::mutex
+2024/09/24-08:34:32.908549 5fec [db\version_set.cc:5658] Recovering from manifest file: rocksdb_data/MANIFEST-000019
+2024/09/24-08:34:32.908779 5fec [db\column_family.cc:621] --------------- Options for column family [default]:
+2024/09/24-08:34:32.908790 5fec               Options.comparator: leveldb.BytewiseComparator
+2024/09/24-08:34:32.908798 5fec           Options.merge_operator: None
+2024/09/24-08:34:32.908800 5fec        Options.compaction_filter: None
+2024/09/24-08:34:32.908803 5fec        Options.compaction_filter_factory: None
+2024/09/24-08:34:32.908805 5fec  Options.sst_partitioner_factory: None
+2024/09/24-08:34:32.908808 5fec         Options.memtable_factory: SkipListFactory
+2024/09/24-08:34:32.908810 5fec            Options.table_factory: BlockBasedTable
+2024/09/24-08:34:32.908905 5fec            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000263F89EA690)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 00000263F8BA6180
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2024/09/24-08:34:32.908912 5fec        Options.write_buffer_size: 67108864
+2024/09/24-08:34:32.908914 5fec  Options.max_write_buffer_number: 2
+2024/09/24-08:34:32.908917 5fec          Options.compression: Snappy
+2024/09/24-08:34:32.908920 5fec                  Options.bottommost_compression: Disabled
+2024/09/24-08:34:32.908922 5fec       Options.prefix_extractor: nullptr
+2024/09/24-08:34:32.908925 5fec   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2024/09/24-08:34:32.908927 5fec             Options.num_levels: 7
+2024/09/24-08:34:32.908930 5fec        Options.min_write_buffer_number_to_merge: 1
+2024/09/24-08:34:32.908932 5fec     Options.max_write_buffer_number_to_maintain: 0
+2024/09/24-08:34:32.908935 5fec     Options.max_write_buffer_size_to_maintain: 0
+2024/09/24-08:34:32.908937 5fec            Options.bottommost_compression_opts.window_bits: -14
+2024/09/24-08:34:32.908940 5fec                  Options.bottommost_compression_opts.level: 32767
+2024/09/24-08:34:32.908943 5fec               Options.bottommost_compression_opts.strategy: 0
+2024/09/24-08:34:32.908945 5fec         Options.bottommost_compression_opts.max_dict_bytes: 0
+2024/09/24-08:34:32.908948 5fec         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2024/09/24-08:34:32.908950 5fec         Options.bottommost_compression_opts.parallel_threads: 1
+2024/09/24-08:34:32.908953 5fec                  Options.bottommost_compression_opts.enabled: false
+2024/09/24-08:34:32.908956 5fec         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2024/09/24-08:34:32.908958 5fec         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2024/09/24-08:34:32.908961 5fec            Options.compression_opts.window_bits: -14
+2024/09/24-08:34:32.908963 5fec                  Options.compression_opts.level: 32767
+2024/09/24-08:34:32.909021 5fec               Options.compression_opts.strategy: 0
+2024/09/24-08:34:32.909026 5fec         Options.compression_opts.max_dict_bytes: 0
+2024/09/24-08:34:32.909028 5fec         Options.compression_opts.zstd_max_train_bytes: 0
+2024/09/24-08:34:32.909031 5fec         Options.compression_opts.use_zstd_dict_trainer: true
+2024/09/24-08:34:32.909033 5fec         Options.compression_opts.parallel_threads: 1
+2024/09/24-08:34:32.909036 5fec                  Options.compression_opts.enabled: false
+2024/09/24-08:34:32.909039 5fec         Options.compression_opts.max_dict_buffer_bytes: 0
+2024/09/24-08:34:32.909041 5fec      Options.level0_file_num_compaction_trigger: 4
+2024/09/24-08:34:32.909044 5fec          Options.level0_slowdown_writes_trigger: 20
+2024/09/24-08:34:32.909046 5fec              Options.level0_stop_writes_trigger: 36
+2024/09/24-08:34:32.909049 5fec                   Options.target_file_size_base: 67108864
+2024/09/24-08:34:32.909052 5fec             Options.target_file_size_multiplier: 1
+2024/09/24-08:34:32.909054 5fec                Options.max_bytes_for_level_base: 268435456
+2024/09/24-08:34:32.909057 5fec Options.level_compaction_dynamic_level_bytes: 0
+2024/09/24-08:34:32.909059 5fec          Options.max_bytes_for_level_multiplier: 10.000000
+2024/09/24-08:34:32.909063 5fec Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2024/09/24-08:34:32.909066 5fec Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2024/09/24-08:34:32.909069 5fec Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2024/09/24-08:34:32.909072 5fec Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2024/09/24-08:34:32.909075 5fec Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2024/09/24-08:34:32.909077 5fec Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2024/09/24-08:34:32.909080 5fec Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2024/09/24-08:34:32.909082 5fec       Options.max_sequential_skip_in_iterations: 8
+2024/09/24-08:34:32.909085 5fec                    Options.max_compaction_bytes: 1677721600
+2024/09/24-08:34:32.909088 5fec   Options.ignore_max_compaction_bytes_for_input: true
+2024/09/24-08:34:32.909090 5fec                        Options.arena_block_size: 1048576
+2024/09/24-08:34:32.909093 5fec   Options.soft_pending_compaction_bytes_limit: 68719476736
+2024/09/24-08:34:32.909095 5fec   Options.hard_pending_compaction_bytes_limit: 274877906944
+2024/09/24-08:34:32.909098 5fec                Options.disable_auto_compactions: 0
+2024/09/24-08:34:32.909101 5fec                        Options.compaction_style: kCompactionStyleLevel
+2024/09/24-08:34:32.909105 5fec                          Options.compaction_pri: kMinOverlappingRatio
+2024/09/24-08:34:32.909107 5fec Options.compaction_options_universal.size_ratio: 1
+2024/09/24-08:34:32.909110 5fec Options.compaction_options_universal.min_merge_width: 2
+2024/09/24-08:34:32.909112 5fec Options.compaction_options_universal.max_merge_width: 4294967295
+2024/09/24-08:34:32.909115 5fec Options.compaction_options_universal.max_size_amplification_percent: 200
+2024/09/24-08:34:32.909117 5fec Options.compaction_options_universal.compression_size_percent: -1
+2024/09/24-08:34:32.909126 5fec Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2024/09/24-08:34:32.909128 5fec Options.compaction_options_fifo.max_table_files_size: 1073741824
+2024/09/24-08:34:32.909131 5fec Options.compaction_options_fifo.allow_compaction: 0
+2024/09/24-08:34:32.909135 5fec                   Options.table_properties_collectors: 
+2024/09/24-08:34:32.909138 5fec                   Options.inplace_update_support: 0
+2024/09/24-08:34:32.909140 5fec                 Options.inplace_update_num_locks: 10000
+2024/09/24-08:34:32.909143 5fec               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2024/09/24-08:34:32.909146 5fec               Options.memtable_whole_key_filtering: 0
+2024/09/24-08:34:32.909148 5fec   Options.memtable_huge_page_size: 0
+2024/09/24-08:34:32.909151 5fec                           Options.bloom_locality: 0
+2024/09/24-08:34:32.909153 5fec                    Options.max_successive_merges: 0
+2024/09/24-08:34:32.909250 5fec                Options.optimize_filters_for_hits: 0
+2024/09/24-08:34:32.909255 5fec                Options.paranoid_file_checks: 0
+2024/09/24-08:34:32.909257 5fec                Options.force_consistency_checks: 1
+2024/09/24-08:34:32.909260 5fec                Options.report_bg_io_stats: 0
+2024/09/24-08:34:32.909262 5fec                               Options.ttl: 2592000
+2024/09/24-08:34:32.909265 5fec          Options.periodic_compaction_seconds: 0
+2024/09/24-08:34:32.909268 5fec  Options.preclude_last_level_data_seconds: 0
+2024/09/24-08:34:32.909270 5fec    Options.preserve_internal_time_seconds: 0
+2024/09/24-08:34:32.909273 5fec                       Options.enable_blob_files: false
+2024/09/24-08:34:32.909275 5fec                           Options.min_blob_size: 0
+2024/09/24-08:34:32.909278 5fec                          Options.blob_file_size: 268435456
+2024/09/24-08:34:32.909281 5fec                   Options.blob_compression_type: NoCompression
+2024/09/24-08:34:32.909285 5fec          Options.enable_blob_garbage_collection: false
+2024/09/24-08:34:32.909288 5fec      Options.blob_garbage_collection_age_cutoff: 0.250000
+2024/09/24-08:34:32.909292 5fec Options.blob_garbage_collection_force_threshold: 1.000000
+2024/09/24-08:34:32.909296 5fec          Options.blob_compaction_readahead_size: 0
+2024/09/24-08:34:32.909299 5fec                Options.blob_file_starting_level: 0
+2024/09/24-08:34:32.909301 5fec Options.experimental_mempurge_threshold: 0.000000
+2024/09/24-08:34:32.912870 5fec [db\version_set.cc:5709] Recovered from manifest file:rocksdb_data/MANIFEST-000019 succeeded,manifest_file_number is 19, next_file_number is 21, last_sequence is 6, log_number is 15,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 10
+2024/09/24-08:34:32.912902 5fec [db\version_set.cc:5718] Column family [default] (ID 0), log number is 15
+2024/09/24-08:34:32.913217 5fec [db\db_impl\db_impl_open.cc:537] DB ID: 4d614f09-7a63-11ef-a0d7-50284a6fa770
+2024/09/24-08:34:32.914615 5fec EVENT_LOG_v1 {"time_micros": 1727177672914582, "job": 1, "event": "recovery_started", "wal_files": [14, 18]}
+2024/09/24-08:34:32.914638 5fec [db\db_impl\db_impl_open.cc:1018] Skipping log #14 since it is older than min log to keep #15
+2024/09/24-08:34:32.914646 5fec [db\db_impl\db_impl_open.cc:1031] Recovering log #18 mode 2
+2024/09/24-08:34:32.927032 5fec EVENT_LOG_v1 {"time_micros": 1727177672926997, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 22, "file_size": 1312, "file_checksum": "", "file_checksum_func_name": "Unknown", "smallest_seqno": 7, "largest_seqno": 8, "table_properties": {"data_size": 346, "index_size": 27, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 0, "raw_key_size": 26, "raw_average_key_size": 13, "raw_value_size": 300, "raw_average_value_size": 150, "num_data_blocks": 1, "num_entries": 2, "num_filter_entries": 0, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; max_dict_buffer_bytes=0; use_zstd_dict_trainer=1; ", "creation_time": 1727177672, "oldest_key_time": 0, "file_creation_time": 0, "slow_compression_estimated_data_size": 0, "fast_compression_estimated_data_size": 0, "db_id": "4d614f09-7a63-11ef-a0d7-50284a6fa770", "db_session_id": "SPRLLTPYFNJ35N1QFM8M", "orig_file_number": 22, "seqno_to_time_mapping": "N/A"}}
+2024/09/24-08:34:32.927993 5fec EVENT_LOG_v1 {"time_micros": 1727177672927986, "job": 1, "event": "recovery_finished"}
+2024/09/24-08:34:32.928482 5fec [db\version_set.cc:5176] Creating manifest 24
+2024/09/24-08:34:32.938020 5fec [file\delete_scheduler.cc:77] Deleted file rocksdb_data/000018.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2024/09/24-08:34:32.938189 5fec [file\delete_scheduler.cc:77] Deleted file rocksdb_data/000014.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2024/09/24-08:34:32.938218 5fec [db\db_impl\db_impl_open.cc:1977] SstFileManager instance 00000263F8515780
+2024/09/24-08:34:32.939003 5fec DB pointer 00000263F877D600
+2024/09/24-08:34:32.939560 2f58 [db\db_impl\db_impl.cc:1090] ------- DUMPING STATS -------
+2024/09/24-08:34:32.939575 2f58 [db\db_impl\db_impl.cc:1091] 
+** DB Stats **
+Uptime(secs): 0.0 total, 0.0 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      3/0    3.86 KB   0.8      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.01              0.00         1    0.012       0      0       0.0       0.0
+ Sum      3/0    3.86 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.01              0.00         1    0.012       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.01              0.00         1    0.012       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.01              0.00         1    0.012       0      0       0.0       0.0
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@00000263F8BA6180#12284 capacity: 8.00 MB usage: 0.08 KB table_size: 256 occupancy: 87 collections: 1 last_copies: 0 last_secs: 3e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **

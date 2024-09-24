@@ -1,0 +1,12 @@
+@startuml
+actor Usuário
+participant "AddBlockUseCase" as AddBlock
+participant "Block" as Bloco
+participant "Transaction" as Transacao
+
+Usuário -> AddBlock: Solicita criação de bloco
+AddBlock -> Bloco: Cria instância de Bloco
+Bloco -> Transacao: Associa transações
+Bloco -> Bloco: Calcula hash atual
+AddBlock <-- Bloco: Retorna bloco criado
+@enduml

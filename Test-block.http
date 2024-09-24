@@ -1,0 +1,18 @@
+### GET BLOCKS
+GET http://127.0.0.1:8080/blocks
+
+### Create Block
+POST localhost:8080/blocks/add
+content-type: application/json
+
+[
+  {
+    "id": "tx22",
+    "content": "Transaction 1"
+  },
+  {
+    "id": "tx222",
+    "content": "Transaction 2"
+  }
+]
+

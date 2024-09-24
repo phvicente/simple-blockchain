@@ -1,0 +1,13 @@
+@startuml
+participant "VerifyTransactionsUseCase" as VerifyTx
+participant "TransactionRepository" as TxRepo
+participant "Transaction" as Transacao
+
+VerifyTx -> Transacao: Itera sobre transações
+loop para cada transação
+    VerifyTx -> Transacao: Verifica estrutura
+    VerifyTx -> TxRepo: Verifica duplicidade
+    TxRepo --> VerifyTx: Retorna resultado
+end
+VerifyTx -> VerifyTx: Retorna resultado geral
+@enduml
